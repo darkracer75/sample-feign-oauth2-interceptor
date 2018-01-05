@@ -1,0 +1,8 @@
+{
+  "access_token": "mocked_token",
+  "token_type": "bearer",
+  "refresh_token": "refresh_mocked_token",
+  "expires_in": 300,
+  "scope": "read write",
+  "jti": "bed560f3-1995-4f7d-b109-164c4bf73d42"
+}

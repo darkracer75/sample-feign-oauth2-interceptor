@@ -1,0 +1,37 @@
+-  request:
+      url: /health
+      method: GET
+   response:
+      headers:
+         Content-Type: application/json
+      status: 200
+      body: {"status" : "UP"}
+-  request:
+      url: ^/persons$
+      method: GET
+   response:
+      status: 200
+      headers:
+         Content-Type: application/json
+      file: persons.json
+-  request:
+      url: ^/orders$
+      method: GET
+      headers:
+        #authorization: "Bearer"
+   response:
+      status: 200
+      headers:
+         Content-Type: application/json
+      file: orders.json
+-  request:
+      url: ^/security/token
+      method: POST
+      headers:
+        Content-Type: application/x-www-form-urlencoded
+        authorization: "Basic demo:secret"
+   response:
+      status: 200
+      headers:
+         Content-Type: application/json
+      file: access_token.json
