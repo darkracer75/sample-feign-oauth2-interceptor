@@ -17,8 +17,6 @@
 -  request:
       url: ^/orders$
       method: GET
-      headers:
-        #authorization: "Bearer"
    response:
       status: 200
       headers:
