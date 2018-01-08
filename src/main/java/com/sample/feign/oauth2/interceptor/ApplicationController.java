@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-public class PersonController {
+public class ApplicationController {
 
     private PersonFeignClient personFeignClient;
     private OrderFeignClient orderFeignClient;
